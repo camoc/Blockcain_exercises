@@ -4,18 +4,16 @@ function palindrome(mystr){
     mytab.forEach(element => {
         newstr = element + newstr;
     });
-    return newstr;
+    if(mystr == result){
+        return true
+    }
+    else{
+        return false
+    }
 }
 
-var mystr = 'anna'
+var mystr = 'ESOPE RESTE ICI ET SE REPOSE'
 var result = palindrome(mystr);
-
-if(mystr == result){
-    console.log('La chaine " ' + mystr + ' " est un palindrome')
-}
-else{
-    console.log('La chaine <' + mystr + '> n\'est pas  un palindrome')
-    console.log(result + ' vs ' + mystr)
-}
+console.log(result)
 
 
