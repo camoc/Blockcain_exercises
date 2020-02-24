@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Exercice_121_factoriel\\run.js"
+            "program": "${workspaceFolder}\\Exercice_123_factoriel_optimiser\\run.js"
         }
     ]
 }
