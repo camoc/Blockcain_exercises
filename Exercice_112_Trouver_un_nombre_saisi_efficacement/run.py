@@ -30,7 +30,7 @@ def find_value(n, value):
             find_value(n, value)
         else:
             print('Valeur non trouvée')
-    
+
 
 
 if __name__ == '__main__':
